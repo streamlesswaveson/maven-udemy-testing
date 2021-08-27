@@ -16,6 +16,11 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit.version>5.7.2</junit.version>
         <surefire.version>2.22.2</surefire.version>
+
+        <!-- skip ALL tests -->
+        <skipTests>true</skipTests>
+        <!-- skip only ITs -->
+        <skipITs>true</skipITs>
     </properties>
 
     <dependencies>
